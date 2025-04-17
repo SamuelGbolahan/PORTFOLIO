@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>BallerZZ</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+
+        <div class="logo">
+          <a href="/index.html">_AS</a>
+        </div>
+        <div class="navSec2">
+          <a href="/index.html">Projects</a>
+          <a href="/about.html">About</a>
+          <a href="#résumé">Résumé</a>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <div class="about">
+
+        <div class="profilePic">
+            <img src="/media/PROFILE PIC.png" alt="">
+        </div>
+        <div class="aboutDesription">
+            <h1>Hi, I'm Samuel</h1>
+            <p class="descriptionP1">I'm a Frontend Web Developer & UI/UX Designer passionate about crafting seamless digital experiences and minimalistic designs.  I believe that great designs happen by constantly evolving and learning, and being ready to adapt to any changes. I am a passionate frontend developer and UI/UX designer with experience working with companies like [Company A], [Company B], [Company C], and [Company D], where I’ve designed and developed intuitive, user-centered digital experiences. </p>
+            <p class="descriptionP2">I craft visually stunning, user-friendly digital experiences by blending design and code seamlessly. Whether it’s building sleek, high-performance websites or designing intuitive interfaces, I focus on creating products that look amazing and feel effortless to use.With a strong foundation in modern web technologies and a keen eye for design, I specialize in building intuitive, accessible, and visually appealing interfaces. 
+                <span>Have a project in mind? Let’s talk—<a href="">drop me a message</a> and let’s make it happen!</span></p>
+            <p class="descriptionP3">Here are the tools I use:</p>
+
+            <div class="descriptionTools">
+                <p>Design — Figma</p>
+                <p>Web — HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="descriptionConnect">
+                <p>Let’s connect!</p>
+                <p class="email"><a href="">samueladanlawo@gmail.com</a></p>
+            </div>
+        </div>
+      </div>
+
+      <footer class="fooTer">
+       
+  
+        <div class="landingpageHr">
+          <hr />
+        </div>
+
+        <div class="footerText">
+          Fueled by curiosity, driven by <span class="rotating-words">innovation</span>
+        </div>
+  
+        <div class="footer">
+          <div class="foterBacktotop">
+            <a href="/index.html">Back home</a>
+          </div>
+          <div class="socials">
+            <a href="#twitter"><span class="fullText">Twitter</span><span class="shortText">TW</span></a>
+            <a href="#behance"><span class="fullText">Behance</span><span class="shortText">BH</span></a>
+            <a href="#linkedIn"><span class="fullText">LinkedIn</span><span class="shortText">LN</span></a>
+            <a href="#gitHub"><span class="fullText">GitHub</span><span class="shortText">GH</span></a>
+          </div>
+          <div class="copyright">&copy Samuel.</div>
+        </div>
+      </footer>
+  
+
+
+
+
+
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".navSec2");
+  
+        hamburger.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+          hamburger.classList.toggle("active");
+          document.body.classList.toggle("no-scroll"); // Disable scroll when menu is active
+        });
+  
+        // Close menu when clicking on a link (optional)
+        document.querySelectorAll(".navSec2 a").forEach((link) => {
+          link.addEventListener("click", () => {
+            navLinks.classList.remove("active");
+            hamburger.classList.remove("active");
+          });
+        });
+      </script>
+</body>
+</html>
