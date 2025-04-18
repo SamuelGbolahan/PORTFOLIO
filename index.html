@@ -115,7 +115,7 @@
 
         <div class="footer">
           <div class="foterBacktotop">
-            <a href="/index.html">Back to top</a>
+            <a href="#" onclick="scrollToTop()">Back to top</a>
           </div>
           <div class="socials">
             <a href="#twitter"
@@ -225,15 +225,14 @@
         });
       });
 
-      // Smooth scroll to top
-      document
-        .querySelector(".foterBacktotop a")
-        .addEventListener("click", function (e) {
-          e.preventDefault(); // Prevent default anchor behavior
-          document.getElementById("top").scrollIntoView({
-            behavior: "smooth",
-          });
-        });
+    
+
+        function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" // Smooth scrolling
+  });
+}
     </script>
   </body>
 </html>
