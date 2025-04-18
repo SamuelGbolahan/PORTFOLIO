@@ -115,7 +115,7 @@
 
         <div class="footer">
           <div class="foterBacktotop">
-            <a href="#" onclick="scrollToTop()">Back to top</a>
+            <a href="#" id="backToTop">Back to top</a>
           </div>
           <div class="socials">
             <a href="#twitter"
@@ -225,14 +225,15 @@
         });
       });
 
-    
-
-        function scrollToTop() {
+      document.getElementById("backToTop").addEventListener("click", function(e) {
+  e.preventDefault(); // Stop default jump behavior
   window.scrollTo({
     top: 0,
-    behavior: "smooth" // Smooth scrolling
+    behavior: "smooth" // Smooth scroll
   });
-}
+});
+    
+
     </script>
   </body>
 </html>

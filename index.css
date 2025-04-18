@@ -295,7 +295,7 @@ object-fit: cover;
 
 .projectArtroost .aT {
 font-size: 34px;
-font-weight: bold;
+font-weight: 500;
 margin: 0;
 }
 
@@ -341,7 +341,7 @@ color: #9f9f9f;
 
     .projectArtroost .aT {
       font-size: 20px;
-      font-weight: 500;
+      font-weight: bold;
     }
 
     .projectArtroost .aTa {
@@ -380,7 +380,7 @@ color: #9f9f9f;
 
 .projectLiving .lI {
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 0;
   color: #4C4C4C;
 }
@@ -419,7 +419,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
     .projectLiving .lI {
       font-size: 20px;
-      font-weight: 500;
+      font-weight: bold;
     }
 
     .projectLiving .lIa {
@@ -458,7 +458,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
 .projectPOMPOSPACE .pO {
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 0;
   color: #4C4C4C;
 }
@@ -497,7 +497,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
     .projectPOMPOSPACE .pO {
       font-size: 20px;
-      font-weight: 500;
+      font-weight: bold;
     }
 
     .projectPOMPOSPACE .pOa {
@@ -541,7 +541,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
 .projectSTREETWEAR .sW {
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 0;
   color: #4C4C4C;
 }
@@ -580,7 +580,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
     .projectSTREETWEAR .sW {
       font-size: 20px;
-      font-weight: 500;
+      font-weight: bold;
     }
 
     .projectSTREETWEAR .sWa {
@@ -807,3 +807,4 @@ opacity: 1;
 transform: translateY(0);
 transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
