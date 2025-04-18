@@ -245,12 +245,10 @@ transition: all 0.3s ease;
 }
 
 .selectedWorks:hover .click {
-color: #4D6BFE;
 }
 
 .selectedWorks:hover .fa-angle-down {
 transform: translateY(5px);
-color: #4D6BFE;
 }
 
 .fa-angle-down {
