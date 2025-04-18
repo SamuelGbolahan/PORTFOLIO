@@ -295,7 +295,7 @@ object-fit: cover;
 
 .projectArtroost .aT {
 font-size: 34px;
-font-weight: 500;
+font-weight: bold;
 margin: 0;
 }
 
@@ -380,7 +380,7 @@ color: #9f9f9f;
 
 .projectLiving .lI {
   font-size: 34px;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
   color: #4C4C4C;
 }
@@ -458,7 +458,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
 .projectPOMPOSPACE .pO {
   font-size: 34px;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
   color: #4C4C4C;
 }
@@ -541,7 +541,7 @@ color: #4D6BFE; /* ← Change this to your preferred hover color */
 
 .projectSTREETWEAR .sW {
   font-size: 34px;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
   color: #4C4C4C;
 }

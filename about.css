@@ -215,6 +215,7 @@ z-index: 101; /* stay on top of menu */
 
   .aboutDesription h1{
       font-size: 32px;
+      font-weight: bold;
   }
 
   .aboutDesription .descriptionP1, .descriptionP2{
@@ -227,6 +228,9 @@ z-index: 101; /* stay on top of menu */
   font-size: 15px;
 }
 
+.descriptionTools{
+  font-weight: bold;
+}
 
   .descriptionConnect .email{
       font-size: 20px;
