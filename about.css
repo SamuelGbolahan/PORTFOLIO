@@ -234,6 +234,7 @@ z-index: 101; /* stay on top of menu */
 
   .descriptionConnect .email{
       font-size: 20px;
+      font-weight: bold;
   }
 } 
 
