@@ -3,6 +3,12 @@
     margin-right: 70px;
 } */
 
+@font-face {
+  font-family: 'BasementGrotesque';
+  src: url('assets/BasementGrotesque-Black_v1.202.otf') format('woff2');
+  font-weight: bold;
+  font-style: bold;
+}
 
 *{
   color: #4C4C4C;
@@ -26,8 +32,9 @@ margin-top: 40px;
 }
 
 .logo {
-font-weight: bold;
-font-size: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'BasementGrotesque', sans-serif;
 }
 
 .logo a{
@@ -132,7 +139,8 @@ nav{
 .logo {
   font-weight: bold;
   font-size: 16px;
-  }
+  font-family: 'BasementGrotesque', sans-serif;
+}
 }
 
 /* HERO-SECTION TEXT */

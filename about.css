@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'BasementGrotesque';
+  src: url('assets/BasementGrotesque-Black_v1.202.otf') format('woff2');
+  font-weight: bold;
+  font-style: bold;
+}
+
+
+
 *{
   color: #4c4c4c;
 }
@@ -25,6 +34,7 @@ nav {
 .logo {
   font-weight: bold;
   font-size: 16px;
+  font-family: 'BasementGrotesque', sans-serif;
 }
 
 .logo a{
@@ -102,6 +112,12 @@ z-index: 101; /* stay on top of menu */
   /* Show hamburger */
   .hamburger {
     display: flex;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'BasementGrotesque', sans-serif;
   }
 
   /* When menu is active */
