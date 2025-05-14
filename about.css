@@ -291,6 +291,7 @@ z-index: 101; /* stay on top of menu */
   .footerText {
     font-size: 20px;
     text-align: center;
+    font-weight: normal;
     margin-left: 16px;
     margin-right: 16px;
     font-weight: bold;
